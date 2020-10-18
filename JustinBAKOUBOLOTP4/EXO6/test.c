@@ -9,8 +9,8 @@ int main() {
 	int TabDesPostions[100];
 	for (int i = 0; i < 100; i++) {
 		TabDesPostions[i] = 0; 
-		Tab[i] = (int) (rand () % (101));
-		printf("%d \t", Tab[i]); // Affichage pour vérificaition du fonctionnement de la fonction.
+		Tab[i] = rand () % (21);
+		printf("%d \t", Tab[i]); // Affichage pour vÃ©rificaition du fonctionnement de la fonction.
 		if (i % 9 == 0) {
 			printf("\n"); 
 		}
